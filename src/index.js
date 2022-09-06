@@ -1,5 +1,12 @@
 
-import {crearTitulo} from './scripts/componente'
+import '../style.css'
+import './css/styles.css'
 
-const name='steven'
-crearTitulo(name)
+export const crearTitulo = (titulo) => {
+     const texto = document.createElement('h1')
+     texto.innerHTML = titulo
+
+     document.body.appendChild(texto)
+}
+
+crearTitulo('Mi página web')

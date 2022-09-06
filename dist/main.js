@@ -40,6 +40,16 @@ eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=w
 
 /***/ }),
 
+/***/ "./style.css":
+/*!*******************!*\
+  !*** ./style.css ***!
+  \*******************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://webpack/./style.css?");
+
+/***/ }),
+
 /***/ "./src/css/styles.css":
 /*!****************************!*\
   !*** ./src/css/styles.css ***!
@@ -116,7 +126,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scripts_componente__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scripts/componente */ \"./src/scripts/componente.js\");\n\r\n\r\n\r\nconst name='steven'\r\n;(0,_scripts_componente__WEBPACK_IMPORTED_MODULE_0__.crearTitulo)(name)\n\n//# sourceURL=webpack://webpack/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scripts_componente__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scripts/componente */ \"./src/scripts/componente.js\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../style.css */ \"./style.css\");\n\r\n\r\n\r\n\r\nconst name='steven'\r\n;(0,_scripts_componente__WEBPACK_IMPORTED_MODULE_0__.crearTitulo)(name)\n\n//# sourceURL=webpack://webpack/./src/index.js?");
 
 /***/ }),
 
